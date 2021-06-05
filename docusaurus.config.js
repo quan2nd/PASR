@@ -8,7 +8,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'maxcda101', // Usually your GitHub org/user name.
-  projectName: 'pasr', // Usually your repo name.
+  projectName: 'maxcda101.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'PASR',
@@ -47,16 +47,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Facebook',
+              href: 'https://fb.com/quanna26',
             },
           ],
         },
@@ -69,7 +65,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/maxcda101/pasr',
             },
           ],
         },
@@ -85,13 +81,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/maxcda101/PASR/edit/master/',
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/maxcda101/PASR/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
