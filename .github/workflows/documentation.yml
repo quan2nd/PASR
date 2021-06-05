@@ -29,6 +29,7 @@ jobs:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     steps:
+      - run: echo ${{ secrets.GH_PAGES_DEPLOY }}
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
