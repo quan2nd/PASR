@@ -2,8 +2,8 @@
 module.exports = {
   title: 'Price Action at Support & Resistance',
   tagline: 'Hành động giá tại Hỗ trợ & Kháng cự',
-  url: 'https://maxcda101.github.io/index.html',
-  baseUrl: '/pasr/',
+  url: 'https://maxcda101.github.io',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
