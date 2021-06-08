@@ -17,13 +17,13 @@ module.exports = {
       //   src: '/img/logo.svg',
       // },
       items: [
-        {to: '/blog', label: 'Strat Blog', position: 'left'},
         {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Basic',
+          label: 'PASR Cơ bản',
         },
+        {to: '/blog', label: 'Strat Blog', position: 'left'},
         {
           href: 'https://github.com/maxcda101/PASR',
           label: 'GitHub',
