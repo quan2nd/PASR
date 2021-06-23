@@ -48,11 +48,11 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discordapp.com/',
             },
             {
               label: 'Facebook',
-              href: 'https://fb.com/quanna26',
+              href: 'https://www.facebook.com/groups/554792309237663',
             },
           ],
         },
